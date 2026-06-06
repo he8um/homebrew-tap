@@ -1,14 +1,3 @@
-# Daryaft Homebrew formula draft — for reference only.
-# This file lives in docs/operations/homebrew-formula-draft/ inside the Daryaft
-# source repository and is NOT the live formula. The canonical formula must live
-# at Formula/daryaft.rb inside the he8um/homebrew-tap repository.
-#
-# Before publishing, validate with:
-#   ruby -c daryaft.rb
-#   brew audit --strict --new-formula daryaft.rb
-#   brew install --verbose daryaft.rb
-#   brew test daryaft
-
 class Daryaft < Formula
   desc "Modern terminal downloader with CLI and TUI"
   homepage "https://github.com/he8um/daryaft"
